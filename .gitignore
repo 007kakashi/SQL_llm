@@ -121,9 +121,9 @@ celerybeat.pid
 
 # Environments
 .env
-.venv
+.sql_llm
 env/
-venv/
+sql_llm/
 ENV/
 env.bak/
 venv.bak/
