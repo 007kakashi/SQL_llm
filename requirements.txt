@@ -4,7 +4,7 @@ langchain==0.0.284
 streamlit==1.22.0
 tiktoken==0.4.0
 langchain-experimental==0.0.25
-google-ai-generativelanguage==0.4.0
+google-generativeai
 faiss
 # protobuf==3.20.3
 toch
