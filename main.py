@@ -11,11 +11,11 @@ from langchain.prompts import FewShotPromptTemplate
 
 from few_shots import few_shots
 
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
 
-load_dotenv()
+# load_dotenv()
 
 
 def get_few_shot_ans():
@@ -28,7 +28,8 @@ def get_few_shot_ans():
 
     # db_chain = SQLDatabaseChain(llm = llm, database = db, verbose = True)
 
-    api_key = os.getenv('GOOGLE_API_KEY')
+    # api_key = os.getenv('GOOGLE_API_KEY')
+    api_key = "AIzaSyBmM_gpMLVdDQGRpVYRU_oXBHr41u3oc7c"
 
     llm = GooglePalm(google_api_key= api_key, temperature=0.7)
 
